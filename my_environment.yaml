@@ -1,0 +1,16 @@
+type: environment.insomnia.rest/5.0
+name: My Environment-global
+meta:
+  id: wrk_67009d60a0f540c182500360275f904f
+  created: 1753716140385
+  modified: 1753716140385
+  description: ""
+environments:
+  name: Base Environment
+  meta:
+    id: env_55ea3434e0d1a00b29fa4b55798e1294667e796c
+    created: 1753716140403
+    modified: 1753716169764
+    isPrivate: false
+  data:
+    some-data1: sdfsdfdsfds
