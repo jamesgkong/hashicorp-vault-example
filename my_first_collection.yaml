@@ -11,7 +11,7 @@ collection:
     meta:
       id: req_474b5e4148a5422fb1ed4d309cf26106
       created: 1753713710192
-      modified: 1753714592067
+      modified: 1753714800844
       isPrivate: false
       description: ""
       sortKey: -1753713710192
@@ -19,9 +19,7 @@ collection:
     parameters:
       - id: pair_b68218ef2f7f4c48b3702887643c5b8f
         name: hashicorp-value
-        value: "{% vault 'hashicorp', 'cloudCred_f7c15ac0c2594f11b2de465d76f11a48',
-          'eyJzZWNyZXROYW1lIjoiamFtZXMtZXhhbXBsZSIsInNlY3JldEVuZ2luZVBhdGgiOiJr\
-          diIsInNlY3JldEtleSI6InNlY3JldC1rZXkiLCJrdlZlcnNpb24iOiJ2MiJ9' %}"
+        value: "{{ _['my-thingy'] }}"
         description: ""
         disabled: false
     headers:
